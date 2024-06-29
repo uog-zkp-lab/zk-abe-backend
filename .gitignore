@@ -1,0 +1,21 @@
+# Rust specific
+target/
+**/*.rs.bk
+
+# General
+*.log
+*.tmp
+*.swp
+*.bak
+*.DS_Store
+
+# IDEs and editors
+.idea/
+.vscode/
+*.iml
+
+# Node
+node_modules/
+
+# Others
+/dist
