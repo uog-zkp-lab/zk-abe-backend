@@ -9,5 +9,6 @@ serde = { version = "1.0.166", features = ["derive"] }
 serde_json = "1.0.97"
 tokio = { version = "1.28", features = ["full"] }
 rabe = "0.4.0"
-thiserror = "1.0"
-proc-macro2 = "1.0"
+simplelog = "0.11.0"
+log = "0.4.14"
+sha2 = "0.10.2"
