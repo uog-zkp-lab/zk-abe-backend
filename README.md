@@ -39,6 +39,7 @@ This project implements a backend server for a Zero-Knowledge Attribute-Based En
   1. Warp: A super-easy, composable, web server framework for warp speeds.
   2. Serde: A framework for serializing and deserializing Rust data structures efficiently and generically.
   3. Tokio: An asynchronous runtime for the Rust programming language.
+  4. Rabe: A library for attribute-based encryption schemes.
 
    
  
