@@ -34,6 +34,13 @@ This project implements a backend server for a Zero-Knowledge Attribute-Based En
    ```bash
    cargo run
 
+5. **Use the following curl command to submit the policy**:
+
+```bash
+curl -X POST http://localhost:3031/submit_policy \
+-H "Content-Type: application/json" \
+-d @policy_template.json
+
 ## Dependencies
 
   1. Warp: A super-easy, composable, web server framework for warp speeds.
