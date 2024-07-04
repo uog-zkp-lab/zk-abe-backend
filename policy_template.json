@@ -1,0 +1,12 @@
+{
+    "data_owner_id": "12345",
+    "attributes": [
+      {"name": "name", "value": "John"},
+      {"name": "hospital", "value": "St. John"},
+      {"name": "doctor_id", "value": "1"},
+      {"name": "department", "value": "Cardiology"},
+      {"name": "role", "value": "Surgeon"}
+    ],
+    "policy": "(name = \"John\" AND hospital = \"St. John\") OR (doctor_id = 1 AND department = \"Cardiology\" AND role = \"Surgeon\")"
+  }
+  
