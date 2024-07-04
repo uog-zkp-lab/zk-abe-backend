@@ -13,6 +13,14 @@ This project implements a backend server for a Zero-Knowledge Attribute-Based En
 - Built with Rust for performance and safety
 - Asynchronous handling using Tokio and Warp
 
+## Dependencies
+
+  1. Warp: A super-easy, composable, web server framework for warp speeds.
+  2. Serde: A framework for serializing and deserializing Rust data structures efficiently and generically.
+  3. Tokio: An asynchronous runtime for the Rust programming language.
+  4. Rabe: A library for attribute-based encryption schemes.
+
+
 ## Installation
 
 1. **Clone the repository**:
@@ -41,14 +49,6 @@ curl -X POST http://localhost:3031/submit_policy \
 -H "Content-Type: application/json" \
 -d @policy_template.json
 
-
-
-## Dependencies
-
-  1. Warp: A super-easy, composable, web server framework for warp speeds.
-  2. Serde: A framework for serializing and deserializing Rust data structures efficiently and generically.
-  3. Tokio: An asynchronous runtime for the Rust programming language.
-  4. Rabe: A library for attribute-based encryption schemes.
 
    
  
