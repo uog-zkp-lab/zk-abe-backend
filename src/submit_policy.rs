@@ -1,9 +1,9 @@
-use warp::Filter;
+use crate::models::{MerkleNode, PolicySubmission, Response};
 use log::info;
+use sha2::{Digest, Sha256};
 use std::collections::HashMap;
 use std::sync::{Arc, Mutex};
-use sha2::{Sha256, Digest};
-use crate::models::{PolicySubmission, Response, MerkleNode};
+use warp::Filter;
 
 type Database = Arc<Mutex<HashMap<String, PolicySubmission>>>;
 
@@ -18,7 +18,8 @@ fn hash_data(data: &str) -> String {
 }
 
 fn build_merkle_tree(attributes: Vec<&str>) -> MerkleNode {
-    let mut nodes: Vec<MerkleNode> = attributes.into_iter()
+    let mut nodes: Vec<MerkleNode> = attributes
+        .into_iter()
         .map(|attr| MerkleNode::new(hash_data(attr)))
         .collect();
 
@@ -62,7 +63,9 @@ fn print_tree(node: &MerkleNode, depth: usize) {
     }
 }
 
-pub fn submit_policy_filter(db: Database) -> impl Filter<Extract = impl warp::Reply, Error = warp::Rejection> + Clone {
+pub fn submit_policy_filter(
+    db: Database,
+) -> impl Filter<Extract = impl warp::Reply, Error = warp::Rejection> + Clone {
     warp::path("submit_policy")
         .and(warp::post())
         .and(warp::body::json())

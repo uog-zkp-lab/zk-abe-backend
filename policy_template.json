@@ -8,5 +8,5 @@
       {"name": "role", "value": "Surgeon"}
     ],
     "policy": "(name = \"John\" AND hospital = \"St. John\") OR (doctor_id = 1 AND department = \"Cardiology\" AND role = \"Surgeon\")"
-  }
+}
   
