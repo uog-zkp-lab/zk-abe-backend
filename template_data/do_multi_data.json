@@ -1,0 +1,122 @@
+[
+    {
+        "id": "P001",
+        "name": "Alice Anderson",
+        "age": 30,
+        "gender": "Female",
+        "phone": "555-1111",
+        "email": "alice.anderson@example.com",
+        "address": {
+            "street": "123 Main St.",
+            "city": "Hometown",
+            "state": "CA",
+            "zip": "90001"
+        },
+        "medical_history": [
+            {
+                "condition": "Hypertension",
+                "diagnosis_date": "2020-01-15",
+                "treatment": "Medication"
+            },
+            {
+                "condition": "Asthma",
+                "diagnosis_date": "2015-06-20",
+                "treatment": "Inhaler"
+            }
+        ],
+        "insurance": "HealthFirst",
+        "policy": "(name = \"John\" AND hospital = \"St. John\") OR (doctor_id = 1 AND department = \"Cardiology\" AND role = \"Surgeon\")"
+    },
+    {
+        "id": "P002",
+        "name": "Bob Brown",
+        "age": 45,
+        "gender": "Male",
+        "phone": "555-2222",
+        "email": "bob.brown@example.com",
+        "address": {
+            "street": "456 Oak St.",
+            "city": "Suburbia",
+            "state": "NY",
+            "zip": "10002"
+        },
+        "medical_history": [
+            {
+                "condition": "Diabetes",
+                "diagnosis_date": "2018-03-22",
+                "treatment": "Insulin"
+            }
+        ],
+        "insurance": "MediCare",
+        "policy": "(name = \"Doe\" AND hospital = \"General Hospital\") OR (doctor_id = 2 AND department = \"Endocrinology\" AND role = \"Specialist\")"
+    },
+    {
+        "id": "P003",
+        "name": "Charlie Clark",
+        "age": 28,
+        "gender": "Non-binary",
+        "phone": "555-3333",
+        "email": "charlie.clark@example.com",
+        "address": {
+            "street": "789 Pine St.",
+            "city": "Metrocity",
+            "state": "TX",
+            "zip": "75001"
+        },
+        "medical_history": [
+            {
+                "condition": "Allergies",
+                "diagnosis_date": "2012-11-11",
+                "treatment": "Antihistamines"
+            }
+        ],
+        "insurance": "HealthNet",
+        "policy": "(name = \"Smith\" AND hospital = \"City Hospital\") OR (doctor_id = 3 AND department = \"Allergy\" AND role = \"Consultant\")"
+    },
+    {
+        "id": "P004",
+        "name": "Dana Davis",
+        "age": 50,
+        "gender": "Female",
+        "phone": "555-4444",
+        "email": "dana.davis@example.com",
+        "address": {
+            "street": "321 Birch St.",
+            "city": "Coastalview",
+            "state": "FL",
+            "zip": "32003"
+        },
+        "medical_history": [
+            {
+                "condition": "Arthritis",
+                "diagnosis_date": "2019-04-10",
+                "treatment": "Physical Therapy"
+            }
+        ],
+        "insurance": "BlueShield",
+        "policy": "(name = \"Taylor\" AND hospital = \"Seaside Hospital\") OR (doctor_id = 4 AND department = \"Orthopedics\" AND role = \"Therapist\")"
+    },
+    {
+        "id": "P005",
+        "name": "Evan Evans",
+        "age": 35,
+        "gender": "Male",
+        "phone": "555-5555",
+        "email": "evan.evans@example.com",
+        "address": {
+            "street": "654 Cedar St.",
+            "city": "Forestville",
+            "state": "IL",
+            "zip": "60007"
+        },
+        "medical_history": [
+            {
+                "condition": "Back Pain",
+                "diagnosis_date": "2021-07-23",
+                "treatment": "Chiropractic Care"
+            }
+        ],
+        "insurance": "HealthCarePlus",
+        "policy": "(name = \"Lee\" AND hospital = \"Forest Hospital\") OR (doctor_id = 5 AND department = \"Chiropractic\" AND role = \"Practitioner\")"
+    }
+]

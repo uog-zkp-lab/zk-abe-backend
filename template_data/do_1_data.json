@@ -1,0 +1,31 @@
+[
+    {
+        "id": "P001",
+        "name": "Alice Anderson",
+        "age": 30,
+        "gender": "Female",
+        "phone": "555-1111",
+        "email": "alice.anderson@example.com",
+        "address": {
+            "street": "123 Main St.",
+            "city": "Hometown",
+            "state": "CA",
+            "zip": "90001"
+        },
+        "medical_history": [
+            {
+                "condition": "Hypertension",
+                "diagnosis_date": "2020-01-15",
+                "treatment": "Medication"
+            },
+            {
+                "condition": "Asthma",
+                "diagnosis_date": "2015-06-20",
+                "treatment": "Inhaler"
+            }
+        ],
+        "insurance": "HealthFirst",
+        "policy": "(name = \"John\" AND hospital = \"St. John\") OR (doctor_id = 1 AND department = \"Cardiology\" AND role = \"Surgeon\")"
+    }
+]
+  

@@ -1,0 +1,82 @@
+[
+    {
+        "id": "D001",
+        "name": "Dr. John Smith",
+        "specialty": "Cardiologist",
+        "phone": "555-1234",
+        "email": "john.smith@example.com",
+        "address": {
+            "street": "123 Heart St.",
+            "city": "Healthyville",
+            "state": "CA",
+            "zip": "90001"
+        },
+        "years_of_experience": 15,
+        "rating": 4.7,
+        "available": true
+    },
+    {
+        "id": "D002",
+        "name": "Dr. Emily Johnson",
+        "specialty": "Dermatologist",
+        "phone": "555-5678",
+        "email": "emily.johnson@example.com",
+        "address": {
+            "street": "456 Skin Ave.",
+            "city": "Smoothcity",
+            "state": "NY",
+            "zip": "10001"
+        },
+        "years_of_experience": 10,
+        "rating": 4.9,
+        "available": false
+    },
+    {
+        "id": "D003",
+        "name": "Dr. Michael Lee",
+        "specialty": "Neurologist",
+        "phone": "555-8765",
+        "email": "michael.lee@example.com",
+        "address": {
+            "street": "789 Brain Blvd.",
+            "city": "Smartown",
+            "state": "TX",
+            "zip": "75001"
+        },
+        "years_of_experience": 20,
+        "rating": 4.8,
+        "available": true
+    },
+    {
+        "id": "D004",
+        "name": "Dr. Sarah Brown",
+        "specialty": "Pediatrician",
+        "phone": "555-4321",
+        "email": "sarah.brown@example.com",
+        "address": {
+            "street": "321 Child Ln.",
+            "city": "Kidstown",
+            "state": "FL",
+            "zip": "32003"
+        },
+        "years_of_experience": 12,
+        "rating": 4.6,
+        "available": true
+    },
+    {
+        "id": "D005",
+        "name": "Dr. William Davis",
+        "specialty": "Orthopedic Surgeon",
+        "phone": "555-9876",
+        "email": "william.davis@example.com",
+        "address": {
+            "street": "654 Bone St.",
+            "city": "Strongville",
+            "state": "IL",
+            "zip": "60007"
+        },
+        "years_of_experience": 18,
+        "rating": 4.5,
+        "available": false
+    }
+]

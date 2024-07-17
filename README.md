@@ -48,7 +48,7 @@ This project implements a backend server for a Zero-Knowledge Attribute-Based En
 curl -X POST http://localhost:3031/submit_policy \
 -H "Content-Type: application/json" \
 -d @policy_template.json
-
+```
 
    
  

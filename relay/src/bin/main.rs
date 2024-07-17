@@ -1,9 +1,8 @@
-mod models;
-mod submit_policy;
-mod test_policy;
-
-use crate::models::{PolicySubmission, Response};
 use log::LevelFilter;
+use relay::{
+    policy::{submit_policy, test_policy},
+    types::models::{PolicySubmission, Response},
+};
 use simplelog::{ColorChoice, Config, TermLogger, TerminalMode};
 use std::collections::HashMap;
 use std::sync::{Arc, Mutex};
@@ -13,13 +12,15 @@ type Database = Arc<Mutex<HashMap<String, PolicySubmission>>>;
 
 #[tokio::main]
 async fn main() {
-    TermLogger::init(
+    match TermLogger::init(
         LevelFilter::Info,
         Config::default(),
         TerminalMode::Mixed,
         ColorChoice::Auto,
-    )
-    .unwrap();
+    ) {
+        Ok(_) => println!("Logger initialized successfully."),
+        Err(e) => println!("Logger initialization failed: {:?}", e),
+    }
 
     let db: Database = Arc::new(Mutex::new(HashMap::new()));
 

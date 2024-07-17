@@ -1,0 +1,24 @@
+[package]
+name = "relay"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "relay"
+path = "src/bin/main.rs"
+
+[dependencies]
+warp = "0.3.3"
+serde = { version = "1.0.166", features = ["derive"] }
+serde_json = "1.0.97"
+tokio = { version = "1.28", features = ["full"] }
+rabe = "0.4.0"
+simplelog = "0.12.2"
+log = "0.4.14"
+sha2 = "0.10.2"
+
+# for zkvm
+methods = { path = "../methods" }
+risc0-zkvm = { version = "1.0.2" }
+risc0-zkp = { version = "1.0.2" }
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }

@@ -1,0 +1,11 @@
+[package]
+name = "merkle_proof"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+
+[dependencies]
+json = "0.12"
+risc0-zkvm = { version = "1.0.2", default-features = false, features = ['std'] }
+serde = "1.0"

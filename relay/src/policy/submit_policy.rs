@@ -1,4 +1,4 @@
-use crate::models::{MerkleNode, PolicySubmission, Response};
+use crate::types::models::{MerkleNode, PolicySubmission, Response};
 use log::info;
 use sha2::{Digest, Sha256};
 use std::collections::HashMap;

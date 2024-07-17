@@ -1,5 +1,4 @@
-// src/test_policy.rs
-use crate::models::Response;
+use crate::types::models::Response;
 use log::info;
 use rabe::schemes::bsw::*;
 use rabe::utils::policy::pest::PolicyLanguage;

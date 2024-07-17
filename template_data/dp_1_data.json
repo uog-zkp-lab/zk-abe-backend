@@ -1,0 +1,18 @@
+[
+    {
+        "id": "D001",
+        "name": "Dr. John Smith",
+        "specialty": "Cardiologist",
+        "phone": "555-1234",
+        "email": "john.smith@example.com",
+        "address": {
+            "street": "123 Heart St.",
+            "city": "Healthyville",
+            "state": "CA",
+            "zip": "90001"
+        },
+        "years_of_experience": 15,
+        "rating": 4.7,
+        "available": true
+    }
+]
