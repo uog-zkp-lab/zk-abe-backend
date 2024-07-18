@@ -1,6 +1,7 @@
 use log::LevelFilter;
 use relay::{
-    policy::{submit_policy, test_policy},
+    api::submit_policy,
+    policy::test_policy,
     types::models::{PolicySubmission, Response},
 };
 use simplelog::{ColorChoice, Config, TermLogger, TerminalMode};

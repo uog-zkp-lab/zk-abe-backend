@@ -1,4 +1,6 @@
 use serde::{Deserialize, Serialize};
+use std::collections::HashMap;
+use std::sync::{Arc, Mutex};
 
 #[derive(Deserialize, Serialize, Debug, Clone)]
 pub struct Response {
@@ -34,3 +36,5 @@ impl MerkleNode {
         }
     }
 }
+
+pub type Database = Arc<Mutex<HashMap<String, PolicySubmission>>>;
